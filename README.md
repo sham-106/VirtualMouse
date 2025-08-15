@@ -42,8 +42,10 @@ Move your index finger (blue marker) to control the cursor and bring your thumb 
    git clone https://github.com/<your-username>/VirtualMouse.git
    cd VirtualMouse
 2. Install dependencies:
+   ```
    mvn clean install
-3. Run the project:
+4. Run the project:
+   ```
    mvn exec:java -Dexec.mainClass="me.shambhavi.Main"
 
    
